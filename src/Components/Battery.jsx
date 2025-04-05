@@ -6,7 +6,7 @@ const Battery = () => {
      return (
     <div> 
        <h3>BATTERY LEVEL</h3>
-      <h3>{battery * 100  }%</h3>
+      <h3>{battery}%</h3>
       <h3>{charging ? "Device is Charging" : "Device is not Charging"}</h3>
        
     <div className='BatteryContainer'>
