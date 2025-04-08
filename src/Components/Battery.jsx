@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import "./Battery.css"
-import { BatteryContext } from './BatteryContext';
+import  BatteryContext  from './BatteryContext';
+
 const Battery = () => {
     const{battery,charging,onFetch} = useContext(BatteryContext);
      return (
